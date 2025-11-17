@@ -1,0 +1,132 @@
+/* ============================
+   ESTILOS GENERALES
+   ============================ */
+body {
+    margin: 0; /* Quita márgenes del navegador */
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif; /* Fuente general */
+    background: #f3f3f3; /* Color gris claro de fondo */
+    color: #222; /* Texto oscuro */
+}
+
+/* ============================
+   HEADER (Encabezado superior)
+   ============================ */
+header {
+    text-align: center; /* Centra el texto */
+    padding: 40px 20px; /* Espaciado interno */
+    background: #ffffff; /* Fondo blanco */
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1); /* Sombra ligera */
+}
+
+header h1 {
+    font-size: 2.4rem; /* Tamaño del nombre */
+    margin-bottom: 5px;
+}
+
+.sub {
+    font-size: 1rem;
+    color: #666; /* Texto gris suave */
+}
+
+/* ============================
+   BOTÓN DE WHATSAPP
+   ============================ */
+.btn-whatsapp {
+    display: inline-block; /* Se comporta como botón */
+    margin-top: 15px;
+    padding: 12px 20px; /* Tamaño del botón */
+    background: #25D366; /* Verde WhatsApp */
+    color: white;
+    font-weight: bold;
+    text-decoration: none; /* Quita subrayado */
+    border-radius: 8px; /* Bordes redondeados */
+    transition: 0.3s; /* Animación al pasar el cursor */
+}
+
+.btn-whatsapp:hover {
+    background: #1ebe5d; /* Verde más oscuro al pasar el mouse */
+}
+
+/* ============================
+   SECCIÓN DE LOGOS
+   ============================ */
+.logos {
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.logos h2 {
+    margin-bottom: 20px;
+}
+
+/* ============================
+   GRID DE LOGOS (cuadrícula)
+   ============================ */
+.logo-grid {
+    display: flex; /* Activa flexbox */
+    justify-content: center; /* Centra horizontalmente */
+    flex-wrap: wrap; /* Permite que bajen a otra fila */
+    gap: 25px; /* Espacio entre logos */
+}
+
+.logo-item {
+    background: white;
+    padding: 15px;
+    width: 120px; /* Tamaño de cada tarjeta */
+    border-radius: 12px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1); /* Sombra */
+    transition: 0.3s;
+}
+
+.logo-item:hover {
+    transform: translateY(-5px); /* Se levanta al pasar el mouse */
+}
+
+.logo-item img {
+    width: 80px; /* Tamaño del icono */
+    height: auto;
+}
+
+.logo-item p {
+    margin-top: 8px;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+/* ============================
+   SECCIÓN DE SERVICIOS
+   ============================ */
+.services {
+    background: #fff;
+    padding: 30px 20px;
+    margin: 20px; /* Separación del borde de la pantalla */
+    border-radius: 12px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+
+.services h2 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.services ul {
+    list-style: none; /* Quita viñetas */
+    padding: 0;
+}
+
+.services li {
+    padding: 8px 0;
+    font-size: 1rem;
+}
+
+/* ============================
+   FOOTER (Pie de página)
+   ============================ */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #222;
+    color: white;
+    margin-top: 30px;
+}
